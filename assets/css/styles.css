@@ -421,6 +421,9 @@ img {
 /*==================== SKILLS ====================*/
 .skills__container {
   row-gap: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 75px;
 }
 
 .skills__header {
@@ -482,6 +485,31 @@ img {
 
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
+}
+
+.skills__img{
+  height: 15.5%;
+  width: 15.5%;
+}
+
+.csharp__img{
+  height: 15.5%;
+  width: 15.5%;
+}
+
+.python__img{
+  height: 70%;
+  width: 70%
+}
+
+.js__img{
+  height: 15%;
+  width: 15%;
+}
+
+.java__img{
+  height: 14%;
+  width: 14%; 
 }
 
 /*==================== QUALIFICATION ====================*/
@@ -546,15 +574,15 @@ img {
 
 .qualification [data-content] {
   display: none;
-}
+} 
 
 .qualification__active[data-content] {
   display: block;
 }
 
-.qualification__button.qualification__active {
+/*.qualification__button.qualification__active {
   color: var(--first-color);
-}
+}*/
 /*==================== SERVICES ====================*/
 
 /* Active Modal */
@@ -896,6 +924,10 @@ img {
     width: 270px;
   }
 
+  .home__blob-img{
+    width: 110%;
+  }
+
   .home__scroll {
     display: block;
   }
@@ -1038,5 +1070,9 @@ img {
 
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav__logo{
+    float: left;
   }
 }
