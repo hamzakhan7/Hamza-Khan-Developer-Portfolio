@@ -818,6 +818,7 @@ img {
   .home__blob {
     width: 180px;
   }
+  
 
   .skills__title {
     font-size: var(--normal-font-size);
@@ -924,9 +925,7 @@ img {
     width: 270px;
   }
 
-  .home__blob-img{
-    width: 110%;
-  }
+  
 
   .home__scroll {
     display: block;
@@ -1005,6 +1004,10 @@ img {
   .main,
   .footer__container {
     padding: 0;
+  }
+
+  .home__blob-img{
+    width: 110%;
   }
 
   .home__container{
