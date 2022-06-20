@@ -1,1 +1,1 @@
-Visit my Developer Portfolio Website: https://www.hamzakhan7.github.io
+Visit my Developer Portfolio Website: www.hamzakhan7.github.io
